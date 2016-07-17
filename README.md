@@ -18,4 +18,5 @@ Permissions:
 - morph.command: Allows using all PocketMorph commands
 
 When transformed, your character will appear as the specified mob to OTHER players, you will not be able to see yourself as the mob. Hope you enjoy this plugin. Please report issues and/or suggestions!
+WARRING ALL PLUGIN COPYRIGHT TO https://github.com/HotshotHD/
 
