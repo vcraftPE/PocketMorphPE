@@ -45,6 +45,14 @@ class Commands {
 		 "Blaze",
 		 "ZombieVillager",
 		 "Snowman",
+           "Horse",
+           "ZombieHorse",
+           "SkeletonHorse",
+           "Mule",
+           "Rabbit",
+           "Stray",
+           "Husk",
+           "Witch",
 		 ];
 							 
 		if(strtolower($cmd->getName()) == "morph") {
@@ -66,7 +74,7 @@ class Commands {
 						}
 						
 						if(strtolower($args[0]) == "help") {
-							$sender->sendMessage(TextFormat::GREEN . "PocketMorph help\n- /morph help\n- /morph remove\n- /morph <entity>\n- /morph list");
+							$sender->sendMessage(TextFormat::GREEN . "Morph help\n- /morph help\n- /morph remove\n- /morph <entity>\n- /morph list");
 						}
 						
 						foreach ($types as $type) {								 
